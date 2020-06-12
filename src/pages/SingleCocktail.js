@@ -78,12 +78,8 @@ const SingleCocktail = () => {
             </p>
           </div>
         </div>
-
       </section>
     );
   }
-  return (
-    <h1>single cocktailpage id {id }</h1>
-  );
 }
 export default SingleCocktail;
