@@ -23,11 +23,10 @@ const Home = () => {
           });
           setCocktails(newCocktails);
         } else {
-          console.log('no drinks');
           setCocktails([]);
         }
-      } catch (error){
-        console.log('oops error', error);
+      } catch (error) {
+        console.log(error);
       }
       setLoading(false);
     } 
